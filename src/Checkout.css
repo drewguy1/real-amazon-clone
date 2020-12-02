@@ -1,0 +1,39 @@
+.checkout {
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    height: max-content;
+}
+
+.checkout__ad {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.checkout__title {
+    padding: 10px;
+    margin-left: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+@media (max-width: 460.98px) {
+
+    .checkout__ad {
+        visibility: hidden;
+        height: 0px;
+        width: 0px;
+    }
+
+    .checkout__title {
+        font-size: 13px;
+    }
+
+}
+
+@media (max-width: 375px) {
+
+    .checkout {
+        width: 381px;
+    }
+
+}
